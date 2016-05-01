@@ -105,9 +105,9 @@ class BaseStalkerController {
         $this->app['action_alias'] = (count($tmp) == 2) ? $tmp[1] : '';
         $this->baseHost = $this->request->getSchemeAndHttpHost();
         $this->workHost = $this->baseHost . \Config::getSafe('portal_url', '/stalker_portal/');
-        $this->relativePath = Config::getSafe('portal_url', '/stalker_portal/');
+        $this->relativePath = \Config::getSafe('portal_url', '/stalker_portal/');
         $this->app['workHost'] = $this->workHost;
-        $this->app['relativePath'] = Config::getSafe('portal_url', '/stalker_portal/');
+        $this->app['relativePath'] = \Config::getSafe('portal_url', '/stalker_portal/');
         $this->app['workHost'] = $this->workHost;
         $this->Uri = $this->app['request']->getUri();
         $controller = (!empty($this->app['controller_alias']) ? "/" . $this->app['controller_alias'] : '');
