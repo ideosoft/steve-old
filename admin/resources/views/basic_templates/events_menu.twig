@@ -36,7 +36,19 @@
                             <label class="col-sm-3 control-label col-sm-offset-1">{{ 'List of MAC-addresses'|trans }}</label>
                             <div class="col-xs-10 col-sm-8">
                                 <input type="hidden" name="file_name" id="file_name">
-                                <div class=" col-xs-10 col-sm-3" id="bootstrapped-fine-uploader"></div>
+                                <!-- The file upload form used as target for the file upload widget -->
+                                <div id="fileupload" class="pull-left">
+                                    <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+                                    <div class="fileupload-buttonbar">
+                                        <div class="fileupload-buttons">
+                                            <!-- The fileinput-button span is used to style the file input field as button -->
+                                            <span class="fileinput-button btn btn-success">
+                                                <span>{{ 'File'|trans }}</span>
+                                                <input type="file" name="files" style="opacity: 0;">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
                                 <span class="help-inline col-xs-12 col-sm-12">
                                     <span class="small txt-default">{{ 'The file must contain pre-compiled list of MAC-addresses in the txt extension or another text format'|trans }}</span>
                                 </span>
@@ -69,6 +81,8 @@
                                         <option value="MAG250">MAG250</option>
                                         <option value="MAG254">MAG254</option>
                                         <option value="MAG255">MAG255</option>
+                                        <option value="MAG256">MAG256</option>
+                                        <option value="MAG257">MAG257</option>
                                         <option value="MAG270">MAG270</option>
                                         <option value="MAG275">MAG275</option>
                                         <option value="AuraHD0">AuraHD0</option>
@@ -127,7 +141,7 @@
                             <label class="col-sm-3 control-label col-sm-offset-1">{{ 'Actions'|trans }}<span class="icon-required">*</span></label>
                             <div class="col-xs-10 col-sm-8">
                                 <div class=" col-xs-10 col-sm-6">
-                                    <select class="populate placeholder" data-validation=required name="event" id="s2_event">
+                                    <select class="populate placeholder" data-validation=required name="event" id="s2_event" required="required">
                                         {% for type in app['formEvent'] %}
                                             <option value="{{ type['id'] }}">{{ type['title'] }}</option>
                                         {% endfor %}
@@ -290,6 +304,39 @@
         }
     };
 
+    function initFileUploader(){
+        $('#fileupload').fileupload({
+            url: '{{ app.request.baseUrl }}/{{ app.controller_alias }}/upload-list-addresses',
+            type: 'POST',
+            autoUpload: true,
+            multipart: true,
+            /*acceptFileTypes: /(\.|\/)(jpe?g|png)$/i,*/
+            maxFileSize: 1000000,
+            maxNumberOfFiles: 1
+        }).bind('fileuploaddone', function (e, data) {
+            var response;
+            if (data && data.jqXHR && data.jqXHR.status && data.jqXHR.status == 200 && data.jqXHR.responseJSON) {
+                response = data.jqXHR.responseJSON;
+            } else {
+                JSErrorModalBox();
+                return false;
+            }
+
+            if (response.success) {
+                $('#file_name').val(response.fname);
+                if ($.isFunction(window[response.action]) && !response.error) {
+                    window[response.action](response);
+                }
+            } else if (response.error && $.isFunction(window[response.action + "Error"])) {
+                window[response.action + "Error"](response);
+            } else {
+                alert("{{ 'Some server error'|trans }}");
+            }
+            return false;
+        });
+        return true;
+    }
+
     function eventsMenuHandlers() {
 
         $.validate(conf);
@@ -372,56 +419,22 @@
             $("#" + $("#s2_post_function").val()).show().find('select, input').removeAttr('disabled');
         });
 
-        var uploader = $("#bootstrapped-fine-uploader").fineUploader({
-            element: $('#bootstrapped-fine-uploader'),
-            autoUpload: true,
-            debug: true,
-            multiple: false,
-            text: {
-                formatProgress: "{percent}% {{ 'from'|trans }} {total_size}",
-                failUpload: "{{ 'Upload failed'|trans }}",
-                waitingForResponse: "{{ 'Processing'|trans }}...",
-                paused: "{{ 'Pause'|trans }}"
-            },
-            request: {
-                endpoint: '{{ app.request.baseUrl }}/{{ app.controller_alias }}/upload-list-addresses'
-            },
-            {#validation: {
-                allowedExtensions: ['jpeg', 'jpg', 'gif', 'png'],
-                sizeLimit: 1048576 // 1Mb
-            },#}
-            template: 'qq-template-bootstrap',
-            classes: {
-                success: 'alert alert-success',
-                fail: 'alert alert-error'
-            }
+        if (typeof (loadFileUploadScripts) != 'function' || !loadFileUploadScripts(initFileUploader)){
+            JSErrorModalBox({msg: "{{ 'Cannot load File Upload plugin'|trans }}"})
+        }
 
-        }).on('complete', function (event, id, name, response) {
-            if (response.success) {
-                $('#file_name').val(response.fname);
-                if ($.isFunction(window[response.action]) && !response.error) {
-                    window[response.action](response);
-                }
-            } else if (response.error && $.isFunction(window[response.action + "Error"])) {
-                window[response.action + "Error"](response);
-            } else {
-                alert("{{ 'Some server error'|trans }}");
-            }
-            return false;
-        });
-
-        $("#bootstrapped-fine-uploader").on('click', ".qq-upload-cancel", function (e) {
-            e.stopPropagation();
-            e.preventDefault();
-            return false;
-        });
     }
 
     function DemoSelect2() {
-        $("[id^='s2_']").select2({minimumResultsForSearch: -1});
+        $.getScript("{{ app.request.baseUrl }}/plugins/select2/i18n/{% if app["language"] %}{{ app["language"] }}{% else %}en{% endif %}.js", function() {
+            $.fn.select2.defaults.set('dropdownAutoWidth', 'false');
+            $.fn.select2.defaults.set('width', '100%');
+            $("[id^='s2_']").select2({minimumResultsForSearch: -1});
+        });
     }
 
     function checkFields(obj, e) {
+        $(obj).select2({minimumResultsForSearch: -1});
         var dataName = $(obj).attr('id') == 's2_user_list_type' ? 'data-list-type' : 'data-event-type';
         $("[" + dataName + "]").hide().find('input, select, textarea').attr('disabled', 'disabled');
         $(obj).find('option:selected').each(function () {
@@ -447,7 +460,11 @@
         $('#modalbox_ad').click();
     };
     var addAddressList = function (data) {
-        JSSuccessModalBox(data);
+        var msg = '';
+        if (typeof(data) != 'undefined') {
+            msg = (typeof(data.msg) != 'undefined' ? data.msg : '');
+        }
+        notty('<span>' + words['Done'] + '! ' + msg + '</span>', 'success');
     };
     var addAddressListError = function (data) {
         JSErrorModalBox(data);
@@ -460,32 +477,5 @@
 </script>
     {% endfor %}
 {% endif %}
-<script type="text/template" id="qq-template-bootstrap">
-    <div class="qq-uploader-selector qq-uploader span12">
-        <div class="qq-upload-drop-area-selector qq-upload-drop-area span12" qq-hide-dropzone>
-            <!--<span>Drop files here to upload</span>-->
-        </div>
-        <div class="qq-upload-button-selector qq-upload-button btn btn-success" style="width: auto; margin: 0 auto; float: none; display: block;">
-            <div>
-                <i class="icon-upload icon-white"></i>{{ 'File'|trans }}
-            </div>
-        </div>
-        <span class="qq-drop-processing-selector qq-drop-processing">
-            <!--<span>Processing dropped files...</span>-->
-            <span class="qq-drop-processing-spinner-selector qq-drop-processing-spinner"></span>
-        </span>
-        <ul class="qq-upload-list-selector qq-upload-list" style="margin-top: 10px; text-align: center;">
-            <li>
-                <div class="qq-progress-bar-container-selector">
-                    <div class="qq-progress-bar-selector qq-progress-bar"></div>
-                </div>
-                <span class="qq-upload-spinner-selector qq-upload-spinner"></span>
-                <span class="qq-upload-file-selector qq-upload-file"></span>
-                <span class="qq-upload-size-selector qq-upload-size"></span>
-                <!--<a class="qq-upload-cancel-selector qq-upload-cancel" href="#"> {{ 'Delete'|trans }} </a>-->
-                <span class="qq-upload-status-text-selector qq-upload-status-text"></span>
-            </li>
-        </ul>
-    </div>
-</script>
 
+{% include "basic_templates/file-uploader-scripts.twig" %}

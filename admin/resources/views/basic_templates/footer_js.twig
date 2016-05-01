@@ -1,32 +1,28 @@
 
 {# empty Twig template #}
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <!--<script src="http://code.jquery.com/jquery.js"></script>-->
+        <!--<script src="//code.jquery.com/jquery.js"></script>-->
         <script src="{{app.request.baseUrl}}/plugins/jquery/jquery-2.1.0.min.js"></script>
 		 <script src="{{app.request.baseUrl}}/plugins/noty/packaged/jquery.noty.packaged.js"></script>
         <script src="{{app.request.baseUrl}}/js/jquery.cookies.2.2.0.js"></script>
         <script src="{{app.request.baseUrl}}/plugins/jquery-ui/jquery-ui.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="{{app.request.baseUrl}}/plugins/bootstrap/bootstrap.min.js"></script>
-        <script src="{{app.request.baseUrl}}/plugins/justified-gallery/jquery.justifiedgallery.min.js"></script>
-        <script src="{{app.request.baseUrl}}/plugins/fineuploader/jquery.fineuploader-5.0.1.js"></script>
-        <script src="{{app.workHost}}c/version.js"></script>
-{#        <script src="{{app.request.baseUrl}}/plugins/tinymce/tinymce.min.js"></script>
-        <script src="{{app.request.baseUrl}}/plugins/tinymce/jquery.tinymce.min.js"></script>#}
+        <script src="{{app.relativePath}}c/version.js"></script>
         <!-- All functions for this theme + document.ready processing -->
         <script src="{{app.request.baseUrl}}/plugins/form-validator/jquery.form-validator.min.js"></script>
-        <script src="{{app.request.baseUrl}}/js/devoops.js?ver=4.9.33"></script>
+        <script src="{{app.request.baseUrl}}/js/devoops.js{% if attribute(app, 'current_version') is defined and app['current_version']%}?ver={{ app['current_version'] }}{% endif %}"></script>
         <script src="{{app.request.baseUrl}}/plugins/multiselect_transfer/jquery.selso.js"></script>
         <script src="{{app.request.baseUrl}}/plugins/datatables/jquery.dataTables.rowReordering.js"></script>
 
 <footer>
     <div class="text">
-        
+
         <a href="http://www.infomir.eu/eng/about/profile/" target=_blank>{{ 'Powered by'|trans }} Infomir</a> -
         <a href="http://www.infomir.eu/eng/products/iptv-stb/" target=_blank>{{ 'IPTV/OTT Set-Top Boxes'|trans }}</a> -
-        <a href="http://www.infomir.eu/eng/support/form/index.php" target=_blank>{{ 'Report a bug'|trans }}</a> -
+        <a href="#" id="contact_support" class="contact_support" target=_blank>{{ 'Contact support'|trans }}</a> -
         <a href="http://www.infomir.eu/eng/press-center/" target=_blank>{{ 'Infomir News'|trans }}</a> -
-		 {% if attribute(app, 'allowed_locales') is defined %}        
+		 {% if attribute(app, 'allowed_locales') is defined %}
         <div class="dropup">
             <a id="dropdownMenu2" data-toggle="dropdown"><span class="lang-xs" lang="{{ app.language }}"></span> {{ 'Language'|trans }}</a>
             <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu2" id="allowed_locales">
@@ -59,6 +55,44 @@
         } );
         if (typeof (ver) != 'undefined') {
             $("#portal_version_srt").text(" v " + ver);
+        }
+
+        {% if attribute(app, 'new_version') is defined and app['new_version']%}
+        var update = {
+            {% for key, val in app['new_version'] %}
+            '{{ key }}': '{{ val }}'{% if not loop.last %},{% endif %}
+            {% endfor %}
+        };
+
+        if (typeof(update.version) != 'undefined' && ver != update.version) {
+            $("#portal_version_srt").after('<span id="new_version" class="text-default"><a class="text-primary" href="' + update.url + '">{{ 'Available new version'|trans }} ' + update.version + '</a></span>').after(' - ');
+        }
+        {% endif %}
+
+        $(document).on('click', '#contact_support', function (e) {
+            e.stopPropagation();
+            e.preventDefault();
+            footer_modal($(this));
+            return false
+        });
+
+        function footer_modal(obj){
+            var modalContainer;
+            if ($('#modalbox_clone').length) {
+                modalContainer = $('#modalbox_clone');
+            } else {
+                modalContainer = $('#modalbox').clone(true);
+                modalContainer.attr('id', 'modalbox_clone');
+                $('#modalbox').after(modalContainer);
+            }
+            modalContainer.find('.modal-header-name span').text('{{ 'Technical questions form'|trans }}');
+            modalContainer.find('.devoops-modal-inner').html('\n\
+                <div class="box-content">\n\
+                     <iframe src="//www.infomir.eu/eng/support/form/stalker.php?lang={{ app.language }}" width="734" height="400" frameborder="0" allowtransparency="true"></iframe>  \n\
+                </div>');
+            modalContainer.find('.devoops-modal-bottom').empty();
+            modalContainer.show();
+            obj.closest('div.open').removeClass('open');
         }
 
     </script>
