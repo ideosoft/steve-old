@@ -5722,7 +5722,7 @@ msgstr "[No hay información de canal]"
 
 #: ../../../lib/ajaxresponse.class.php:208
 msgid "New claim on %s - %s (%s, id: %s). From %s"
-msgstr "Nuevo reclamo en% s -% s (% s, id:% s). De% s"
+msgstr "Nuevo reclamo en%s -%s (%s, id:%s). De%s"
 
 #: ../../../lib/coursecbr.class.php:31 ../../../lib/course.class.php:30
 #: ../../../lang/stb.php:181
@@ -5776,15 +5776,15 @@ msgstr "errores"
 
 #: ../../../lib/epg.class.php:251
 msgid "Successful: %s channels"
-msgstr "Exitosa:% s canales"
+msgstr "Exitosa: %s canales"
 
 #: ../../../lib/epg.class.php:252
 msgid "Deleted: %s records"
-msgstr "Eliminado:% s registros"
+msgstr "Eliminado: %s registros"
 
 #: ../../../lib/epg.class.php:253
 msgid "Queries"
-msgstr "consultas"
+msgstr "Consultas"
 
 #: ../../../lib/epg.class.php:254
 msgid "Exec time"
@@ -5793,7 +5793,7 @@ msgstr "tiempo Exec"
 #: ../../../lib/epg.class.php:517 ../../../lib/epg.class.php:604
 #: ../../../lib/epg.class.php:927
 msgid "%H:%i"
-msgstr "%Hola"
+msgstr "%H:%i"
 
 #: ../../../lib/epg.class.php:620 ../../../lang/stb.php:136
 msgid "SUNDAY"
@@ -5826,7 +5826,7 @@ msgstr "SÁBADO"
 #: ../../../lib/epg.class.php:838 ../../../lib/epg.class.php:839
 #: ../../../lib/epg.class.php:840 ../../../lib/epg.class.php:841
 msgid "H:i"
-msgstr "Hola"
+msgstr "H:i"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "JANUARY"
@@ -5878,7 +5878,7 @@ msgstr "DICIEMBRE"
 
 #: ../../../lib/admin.class.php:181
 msgid "Action \"%s\" denied for page \"%s\""
-msgstr "Acción \"% s\" rechazada por página \"% s\""
+msgstr "Acción \"%s\" rechazada por página \"%s\""
 
 #: ../../../lib/video.class.php:95 ../../../lib/vod.class.php:794
 #: ../../../lib/user.class.php:1127 ../../../lib/user.class.php:1128
@@ -5964,11 +5964,11 @@ msgstr "No suscrito"
 
 #: ../../../lib/radio.class.php:311
 msgid "Radio-channel %s set to active because its URL became available."
-msgstr "Radio-canal% s conjunto de activos porque su URL llegó a estar disponible."
+msgstr "Radio-canal%s conjunto de activos porque su URL llegó a estar disponible."
 
 #: ../../../lib/radio.class.php:320
 msgid "Radio-channel %s set to inactive because its URL are not available."
-msgstr "Radio-canal% s define como inactivo debido a que su URL no están disponibles."
+msgstr "Radio-canal%s define como inactivo debido a que su URL no están disponibles."
 
 #: ../../../lib/audioclub.class.php:19
 #: ../../../../admin/json_menu/menu.json:91
@@ -6579,11 +6579,11 @@ msgstr "probadores"
 
 #: ../../../administrator/testers.php:163
 msgid "Are you sure you want to change the status of the tester %s?"
-msgstr "¿Seguro que desea cambiar el estado del probador% s?"
+msgstr "¿Seguro que desea cambiar el estado del probador%s?"
 
 #: ../../../administrator/testers.php:165
 msgid "Are you sure you want to remove the tester %s?"
-msgstr "¿Seguro que desea eliminar el probador% s?"
+msgstr "¿Seguro que desea eliminar el probador%s?"
 
 #: ../../../administrator/audio_year.php:100
 #: ../../../administrator/audio_year.php:149
@@ -6664,7 +6664,7 @@ msgstr "puntos de vista actuales sobre el almacenamiento"
 #: ../../../administrator/events.php:97 ../../../administrator/events.php:110
 #: ../../../administrator/events.php:137
 msgid "%s events %s sended, %s errors"
-msgstr "% s% s sended eventos,% s errores"
+msgstr "%s%s sended eventos,%s errores"
 
 #: ../../../administrator/events.php:141
 msgid "File with list is missing"
@@ -7277,7 +7277,7 @@ msgstr "zonas Stream"
 
 #: ../../../administrator/stream_zones.php:271
 msgid "Are you sure you want to delete record %s?"
-msgstr "¿Seguro que desea eliminar el registro% s?"
+msgstr "¿Seguro que desea eliminar el registro%s?"
 
 #: ../../../administrator/stream_zones.php:290
 msgid "Default zone"
@@ -7319,15 +7319,15 @@ msgstr "Última visualización de vídeo"
 
 #: ../../../administrator/stbgroups.php:140
 msgid "Are you sure you want to delete the group %s from the database?"
-msgstr "¿Seguro que quiere eliminar el grupo% s de la base de datos?"
+msgstr "¿Seguro que quiere eliminar el grupo%s de la base de datos?"
 
 #: ../../../administrator/storages.php:129
 msgid "Cache %s is cleared"
-msgstr "Caché% s se borra"
+msgstr "Caché%s se borra"
 
 #: ../../../administrator/storages.php:132
 msgid "Storage with id %s not found"
-msgstr "Almacenamiento con id% s no encontrado"
+msgstr "Almacenamiento con id%s no encontrado"
 
 #: ../../../administrator/storages.php:143
 msgid "Cache is cleared"
@@ -7364,11 +7364,11 @@ msgstr "ruta a la página"
 
 #: ../../../administrator/storages.php:271
 msgid "Are you sure you want to change the status of the storage %s?"
-msgstr "¿Seguro que desea cambiar el estado del almacenamiento% s?"
+msgstr "¿Seguro que desea cambiar el estado del almacenamiento%s?"
 
 #: ../../../administrator/storages.php:272
 msgid "Are you sure you want to reset the cache of the storage %s?"
-msgstr "¿Seguro que desea restablecer la memoria caché del almacenamiento% s?"
+msgstr "¿Seguro que desea restablecer la memoria caché del almacenamiento%s?"
 
 #: ../../../administrator/storages.php:272
 msgid "clear cache"
@@ -7420,11 +7420,11 @@ msgstr "Solamente los moderadores"
 
 #: ../../../administrator/today_user_status_report.php:24
 msgid "Report for the stb status changed on %s on %s"
-msgstr "Informe de status de la STB cambió el% s en% s"
+msgstr "Informe de status de la STB cambió el%s en%s"
 
 #: ../../../administrator/today_user_status_report.php:40
 msgid "Report of the stb status changing on %s on %s"
-msgstr "Informe del estado del STB cambiar el% s en% s"
+msgstr "Informe del estado del STB cambiar el%s en%s"
 
 #: ../../../administrator/today_user_status_report.php:45
 msgid "Current status"
