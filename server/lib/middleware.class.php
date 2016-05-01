@@ -106,7 +106,7 @@ class Middleware
 
     public static function isValidMAC($mac){
 
-        return preg_match("/^00:1A:79:[0-9,A-F]{2}:[0-9,A-F]{2}:[0-9,A-F]{2}$/", $mac);
+		return preg_match("/^[0-9,A-F]{2}:[0-9,A-F]{2}:[0-9,A-F]{2}:[0-9,A-F]{2}:[0-9,A-F]{2}:[0-9,A-F]{2}$/", $mac);
     }
 
     public static function getClonesIPAddress(){
