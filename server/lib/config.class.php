@@ -14,10 +14,14 @@ class Config
 
         self::$settings = parse_ini_file($config_file);
 
-        $custom_config = PROJECT_PATH.'/custom.ini';
+		$custom_config = PROJECT_PATH.'/custom.ini';
+		
+		if (is_readable('/etc/stalker/config.ini')) {
+			$custom_config = '/etc/stalker/config.ini';
+		}
 
         if (is_readable($custom_config)){
-            $custom = parse_ini_file(PROJECT_PATH.'/custom.ini');
+            $custom = parse_ini_file($custom_config);
 
             if ($custom !== false){
                 self::$settings = array_merge(self::$settings, $custom);
