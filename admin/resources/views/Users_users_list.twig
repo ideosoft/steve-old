@@ -102,7 +102,19 @@
                                 <label class="col-sm-3 control-label col-sm-offset-1">{{ 'List of MAC-addresses'|trans }}</label>
                                 <div class="col-xs-10 col-sm-8">
                                     <input type="hidden" name="file_name" id="file_name">
-                                    <div class=" col-xs-10 col-sm-3" id="bootstrapped-fine-uploader"></div>
+                                    <!-- The file upload form used as target for the file upload widget -->
+                                    <div id="fileupload" class="pull-left">
+                                        <!-- The fileupload-buttonbar contains buttons to add/delete files and start/cancel the upload -->
+                                        <div class="fileupload-buttonbar">
+                                            <div class="fileupload-buttons">
+                                                <!-- The fileinput-button span is used to style the file input field as button -->
+                                                <span class="fileinput-button btn btn-success">
+                                                    <span>{{ 'File'|trans }}</span>
+                                                    <input type="file" name="files" style="opacity: 0;">
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                     <span class="help-inline col-xs-12 col-sm-12">
                                         <span class="small txt-default">{{ 'The file must contain pre-compiled list of MAC-addresses in the txt extension or another text format'|trans }}</span>
                                     </span>
@@ -132,6 +144,8 @@
                                             <option value="MAG200">MAG200</option>
                                             <option value="MAG250">MAG250</option>
                                             <option value="MAG255">MAG255</option>
+                                            <option value="MAG256">MAG256</option>
+                                            <option value="MAG257">MAG257</option>
                                             <option value="MAG270">MAG270</option>
                                             <option value="MAG275">MAG275</option>
                                             <option value="AuraHD0">AuraHD0</option>
@@ -343,8 +357,12 @@
         ];
 
         function DemoSelect2() {
-            $("[id^='s2_']").select2({minimumResultsForSearch: -1});
-            $("[id^='filter_s2_']").select2();
+            $.getScript("{{ app.request.baseUrl }}/plugins/select2/i18n/{% if app["language"] %}{{ app["language"] }}{% else %}en{% endif %}.js", function() {
+                $.fn.select2.defaults.set('dropdownAutoWidth', 'false');
+                $.fn.select2.defaults.set('width', '100%');
+                $("[id^='s2_']").select2({minimumResultsForSearch: -1});
+                $("[id^='filter_s2_']").select2();
+            });
         }
 
         function TestTable1() {
@@ -684,7 +702,6 @@
                             <button type="reset" class="btn btn-default pull-right" >{{ 'Cancel'|trans }}</button>\n\
                         </div>');
 
-                    $("#target_reseller").select2("destroy");
                     $("#target_reseller").select2({minimumResultsForSearch: -1});
 
                     $("#modalbox").show();
@@ -762,7 +779,6 @@
                 $(document).on('change', 'select[id^="filter_s2_"]', function (e) {
                     if ($(this).find('option:selected').length == 0) {
                         $($(this).find('option').get(0)).prop('selected', 'selected');
-                        $(this).select2('destroy');
                         $(this).select2();
                     }
                     var filter_val = $(this).find('option:selected').map(function(){return this.value}).get().join('|');
