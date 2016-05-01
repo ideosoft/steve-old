@@ -8789,11 +8789,11 @@ msgstr "search_box_languages"
 
 #: ../../../lang/stb.php:248
 msgid "date_format"
-msgstr "date_format"
+msgstr "{0}, {1}-{2}-{3}"
 
 #: ../../../lang/stb.php:251
 msgid "time_format"
-msgstr "time_format"
+msgstr "{2}:{1}:{3}"
 
 #: ../../../lang/stb.php:253
 msgid "Timezone"
