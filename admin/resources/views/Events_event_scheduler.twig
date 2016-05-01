@@ -135,12 +135,15 @@
                     { className: "action-menu", "targets": [ -1 ] },
                     {"searchable": false, "targets": [0, -1]}
                 ]
-            }).prev('.dataTables_processing').hide('');
-            $('#datatable-1').DataTable().order( [ 0, 'desc' ] ).draw();
+            }).prev('.dataTables_processing').hide('', function(){
+                $('.dataTables_filter').hide('');
+            });
+            $('#datatable-1').DataTable().ajax.reload();
         }
 
         function yelp() {
             $(document).ready(function () {
+                window.stateSaveReject = true;
                 LoadDataTablesScripts(TestTable1);
                     {{ main_macro.get_datepicker_js_script('notMinDate') }}
                     datePickerOpt.onClose = function(){};
@@ -154,7 +157,6 @@
                         $("#modalbox_ad .devoops-modal-header span").text("{{ 'Add event into the schedule'|trans }}");
                         $("#modalbox_ad form").get(0).reset();
                         $("#modalbox_ad form input[type='hidden'][id='id']").val('');
-                        $('select[id^="s2_"]').select2("destroy");
                         $('select[id^="s2_"]').select2({minimumResultsForSearch: -1});
                         $("#modalbox_ad").show().find('input, select, textarea').removeAttr('disabled');
                         checkFields('#s2_user_list_type', e);
@@ -208,7 +210,6 @@
                                     $(this).prop('selected', true);
                                 }
                             });
-                            $(this).select2("destroy");
                             $(this).select2({minimumResultsForSearch: -1});
                             if (getField == 'filter_set' || getField == 'event'){
                                 $(this).change();
