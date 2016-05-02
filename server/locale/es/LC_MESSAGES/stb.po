@@ -1990,7 +1990,7 @@ msgstr "Última carrera"
 #: ../../../../admin/src/Controller/VideoClubController.php:139
 #: ../../../../admin/json_menu/menu.json:43
 msgid "Movie list"
-msgstr "lista de películas"
+msgstr "Películas"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:96
 msgid "Add movie"
@@ -2019,7 +2019,7 @@ msgstr "Editar comercial"
 #: ../../../../admin/src/Controller/VideoClubController.php:299
 #: ../../../../admin/json_menu/menu.json:58
 msgid "Moderators"
-msgstr "moderadores"
+msgstr "Moderadores"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:272
 msgid "Add moderator"
@@ -2283,7 +2283,7 @@ msgstr "Categoría"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:2342
 msgid "Movies in genre"
-msgstr "Películas de género"
+msgstr "Películas del género"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:2375
 #: ../../../../admin/src/Controller/UsersController.php:2047
@@ -2322,7 +2322,7 @@ msgstr "Dirección MAC"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:2377
 msgid "Advertising is disabled"
-msgstr "La publicidad es discapacitado"
+msgstr "La publicidad está desactivada"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:2398
 #: ../../../../admin/src/Controller/StatisticsController.php:1417
@@ -2353,11 +2353,11 @@ msgstr "Añadir zona"
 
 #: ../../../../admin/src/Controller/BroadcastServersController.php:137
 msgid "Edit area"
-msgstr "área de edición"
+msgstr "Área de edición"
 
 #: ../../../../admin/src/Controller/BroadcastServersController.php:356
 msgid "Invalid data"
-msgstr "Los datos no válidos"
+msgstr "Datos inválidos"
 
 #: ../../../../admin/src/Controller/BroadcastServersController.php:386
 msgid "Quantity of countries"
@@ -2386,7 +2386,7 @@ msgstr "Tal vez la aplicación ya está instalada. Puede actualizarla si la nuev
 
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:154
 msgid "URL of application is not defined"
-msgstr "URL de aplicación no se define"
+msgstr "La URL de la aplicación no está definida"
 
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:193
 msgid "Failed to get the list of versions of this applications"
@@ -2400,15 +2400,15 @@ msgstr "Error al actualizar los parámetros de inicio de aplicaciones"
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:289
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:326
 msgid "Application is undefined"
-msgstr "Aplicación no está definido"
+msgstr "La aplicación no está definida"
 
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:281
 msgid "Error of installing the application"
-msgstr "Error de instalación de la aplicación"
+msgstr "Error en la instalación de la aplicación"
 
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:322
 msgid "Error of uninstalling the application."
-msgstr "Error de desinstalación de la aplicación."
+msgstr "Error en la desinstalación de la aplicación."
 
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:365
 msgid "Activated. Current version"
@@ -4773,7 +4773,7 @@ msgstr "Informe sobre cambios de estado STB por página + filtros"
 
 #: ../../../tools/misctranslations.php:469
 msgid "List of movies"
-msgstr "Lista de películas"
+msgstr "Listado de películas"
 
 #: ../../../tools/misctranslations.php:470
 msgid "List of movies by page + filters"
@@ -9930,7 +9930,7 @@ msgstr "Rechazar"
 
 #: 
 msgid "Remove"
-msgstr "retirar"
+msgstr "Quitar"
 
 #: 
 msgid "Remove from favorites"
@@ -9938,7 +9938,7 @@ msgstr "Remover de favoritos"
 
 #: 
 msgid "STB statuses report "
-msgstr "STB estados de informe"
+msgstr "STB estados de informe "
 
 #: 
 msgid "Schedule of publishing"
