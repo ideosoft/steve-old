@@ -7071,15 +7071,15 @@ msgstr "importación de suscripción"
 
 #: ../../../administrator/users.php:170
 msgid "Media browser"
-msgstr "navegador de medios"
+msgstr "Multimedia"
 
 #: ../../../administrator/users.php:171
 msgid "Tv archive"
-msgstr "archivo de tv"
+msgstr "Archivo de TV"
 
 #: ../../../administrator/users.php:173
 msgid "TimeShift"
-msgstr "Cambio de hora"
+msgstr "TimeShift"
 
 #: ../../../administrator/users.php:174 ../../../administrator/users.php:175
 #: ../../../administrator/users.php:176 ../../../administrator/users.php:177
@@ -8306,11 +8306,11 @@ msgstr "DE"
 
 #: ../../../lang/stb.php:32
 msgid "FOUND"
-msgstr "ENCONTRÓ"
+msgstr "ENCONTRADOS"
 
 #: ../../../lang/stb.php:33 ../../../lang/stb.php:142
 msgid "RECORDS"
-msgstr "ARCHIVOS"
+msgstr "REGISTROS"
 
 #: ../../../lang/stb.php:34
 msgid "LOADING..."
@@ -8322,7 +8322,7 @@ msgstr "Cargando..."
 
 #: ../../../lang/stb.php:38
 msgid "Media Browser"
-msgstr "Navegador de medios"
+msgstr "Multimedia"
 
 #: ../../../lang/stb.php:39
 msgid "connected"
@@ -8498,7 +8498,7 @@ msgstr "por addTime"
 
 #: ../../../lang/stb.php:122
 msgid "rating"
-msgstr "clasificación"
+msgstr "valoración"
 
 #: ../../../lang/stb.php:124
 msgid "favorite only"
@@ -8518,7 +8518,7 @@ msgstr "VIDEOCLUB"
 
 #: ../../../lang/stb.php:130
 msgid "Purchased"
-msgstr "comprado"
+msgstr "Comprado"
 
 #: ../../../lang/stb.php:131
 msgid "rent expires in"
@@ -8526,7 +8526,7 @@ msgstr "alquiler expira en"
 
 #: ../../../lang/stb.php:134
 msgid "Your STB is blocked.<br/> Call the provider."
-msgstr "Su receptor está bloqueado. <br/> Llame al proveedor."
+msgstr "Su receptor está bloqueado.<br/> Llame al su proveedor."
 
 #: ../../../lang/stb.php:145
 msgid "BACK"
@@ -8542,11 +8542,11 @@ msgstr "PROGRAMACIÓN"
 
 #: ../../../lang/stb.php:148 ../../../lang/stb.php:395
 msgid "PACKAGE INFO"
-msgstr "Datos del paquete"
+msgstr "INFORMACIÓN DEL PAQUETE"
 
 #: ../../../lang/stb.php:151
 msgid "SETTINGS"
-msgstr "AJUSTES"
+msgstr "CONFIGURACIÓN"
 
 #: ../../../lang/stb.php:152 ../../../lang/stb.php:172
 #: ../../../lang/stb.php:274
@@ -8567,7 +8567,7 @@ msgstr "CONTROL PARENTAL"
 
 #: ../../../lang/stb.php:156
 msgid "PARENTAL"
-msgstr "DE LOS PADRES"
+msgstr "PARENTAL"
 
 #: ../../../lang/stb.php:157
 msgid "New password"
@@ -8583,15 +8583,15 @@ msgstr "Ajustes guardados"
 
 #: ../../../lang/stb.php:161
 msgid "Settings saved.<br>The STB will be rebooted. Press OK."
-msgstr "Se reiniciará la configuración guardada. Francia El STB. Presiona OK."
+msgstr "Configuración guardada.<BR>Se reiniciará el Decodificador. Presiona OK."
 
 #: ../../../lang/stb.php:162
 msgid "Error filling fields"
-msgstr "campos de error de llenado"
+msgstr "Error en los campos"
 
 #: ../../../lang/stb.php:163
 msgid "Saving error"
-msgstr "error al guardar"
+msgstr "Error al guardar"
 
 #: ../../../lang/stb.php:165
 msgid "LOCALIZATION"
@@ -8607,7 +8607,7 @@ msgstr "Ciudad"
 
 #: ../../../lang/stb.php:169
 msgid "Use PAGE-/+ buttons to move through several menu items"
-msgstr "Use PAGE botones - / + para desplazarse por varios elementos de menú"
+msgstr "Usar botones PAGE-/+ para desplazarse por los elementos del menú"
 
 #: ../../../lang/stb.php:171
 msgid "SOFTWARE UPDATE"
@@ -8623,11 +8623,11 @@ msgstr "Desde HTTP"
 
 #: ../../../lang/stb.php:175
 msgid "From USB"
-msgstr "desde USB"
+msgstr "Desde USB"
 
 #: ../../../lang/stb.php:177
 msgid "Method select"
-msgstr "método seleccione"
+msgstr "método seleccionado"
 
 #: ../../../lang/stb.php:179
 msgid "EMPTY"
@@ -8647,7 +8647,7 @@ msgstr "CLIMA"
 
 #: ../../../lang/stb.php:186
 msgid "pres.:"
-msgstr "Pres .:"
+msgstr "presione.:"
 
 #: ../../../lang/stb.php:188
 msgid "wind:"
@@ -8655,7 +8655,7 @@ msgstr "viento:"
 
 #: ../../../lang/stb.php:191
 msgid "INFOPORTAL"
-msgstr "InfoPortales"
+msgstr "INFOPORTAL"
 
 #: ../../../lang/stb.php:193
 msgid "CITY INFO"
@@ -8679,7 +8679,7 @@ msgstr "HORÓSCOPO"
 
 #: ../../../lang/stb.php:201
 msgid "JOKES"
-msgstr "CHISTES"
+msgstr "BROMAS"
 
 #: ../../../lang/stb.php:203
 msgid "GOTO"
@@ -8715,11 +8715,11 @@ msgstr "CLASIFICACIÓN"
 
 #: ../../../lang/stb.php:214
 msgid "B"
-msgstr "segundo"
+msgstr "B"
 
 #: ../../../lang/stb.php:216
 msgid "C"
-msgstr "do"
+msgstr "C"
 
 #: ../../../lang/stb.php:218
 msgid "Your task is to guess the number of unduplicated four digits, the first of them - not zero. Every your guess will be compared with the number put forth a STB. If you guessed a digit, but it is not in place, then it is a COW (C). If you guessed, and a number, and its location, this BULL (B)."
@@ -8767,11 +8767,11 @@ msgstr "Memorándum"
 
 #: ../../../lang/stb.php:232
 msgid "Goto channel"
-msgstr "canal Goto"
+msgstr "Ir a canal"
 
 #: ../../../lang/stb.php:233
 msgid "Close"
-msgstr "Cerca"
+msgstr "Cerrar"
 
 #: ../../../lang/stb.php:235
 msgid "now begins"
@@ -11326,7 +11326,7 @@ msgstr "lista de canales"
 
 #: 
 msgid "complete"
-msgstr "completar"
+msgstr "Completo"
 
 #: 
 msgid "edit area"
@@ -11354,7 +11354,7 @@ msgstr "lista de paquetes de servicios"
 
 #: 
 msgid "logs"
-msgstr "troncos"
+msgstr "Registros"
 
 #: 
 msgid "Attributes"
@@ -11362,7 +11362,7 @@ msgstr "Atributos"
 
 #: 
 msgid "Date type"
-msgstr "tipo de fecha"
+msgstr "Tipo de fecha"
 
 #: 
 msgid "Day number"
@@ -11382,7 +11382,7 @@ msgstr "Descripción Filtrar"
 
 #: 
 msgid "IPTV/OTT Set-Top Boxes"
-msgstr "IPTV/OTT set-top boxes"
+msgstr "IPTV/OTT Set-Top Boxes"
 
 #: 
 msgid "If do not selected any of the days of the week the event will be run every day."
@@ -11394,7 +11394,7 @@ msgstr "Si la fecha no se especifica el inicio / final, el evento se repetirá e
 
 #: 
 msgid "Infomir News"
-msgstr "Infomir Noticias"
+msgstr "Noticias"
 
 #: 
 msgid "Powered by"
