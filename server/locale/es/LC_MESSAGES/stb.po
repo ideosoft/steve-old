@@ -3851,7 +3851,7 @@ msgstr "De las películas"
 
 #: ../../../tools/misctranslations.php:207
 msgid "Clear"
-msgstr "Claro"
+msgstr "Despejado"
 
 #: ../../../tools/misctranslations.php:208
 msgid "Partly Cloudy"
@@ -3863,15 +3863,15 @@ msgstr "Nublado"
 
 #: ../../../tools/misctranslations.php:210
 msgid "Overcast"
-msgstr "Nublado"
+msgstr "Nuboso"
 
 #: ../../../tools/misctranslations.php:211
 msgid "Little rain"
-msgstr "Poca lluvia"
+msgstr "Chubascos dispersos"
 
 #: ../../../tools/misctranslations.php:212
 msgid "Rain"
-msgstr "Lluvia"
+msgstr "Chubascos"
 
 #: ../../../tools/misctranslations.php:213
 msgid "Thunderstorm"
@@ -3895,15 +3895,15 @@ msgstr "Nevada"
 
 #: ../../../tools/misctranslations.php:220
 msgid "N"
-msgstr "norte"
+msgstr "N"
 
 #: ../../../tools/misctranslations.php:222
 msgid "NE"
-msgstr "nordeste"
+msgstr "NE"
 
 #: ../../../tools/misctranslations.php:224
 msgid "E"
-msgstr "mi"
+msgstr "E"
 
 #: ../../../tools/misctranslations.php:226
 msgid "SE"
@@ -3919,11 +3919,11 @@ msgstr "SO"
 
 #: ../../../tools/misctranslations.php:232
 msgid "W"
-msgstr "W"
+msgstr "O"
 
 #: ../../../tools/misctranslations.php:234
 msgid "NW"
-msgstr "noroeste"
+msgstr "NO"
 
 #: ../../../tools/misctranslations.php:236
 msgid "Tariff plan is changed, please restart your STB"
@@ -8235,7 +8235,7 @@ msgstr "Acción \"editar\" negada para la página \"add_itv\""
 
 #: ../../../lang/stb.php:10
 msgid "Comfort"
-msgstr "Comodidad"
+msgstr "Temperatura"
 
 #: ../../../lang/stb.php:11
 msgid "Pressure"
@@ -8251,7 +8251,7 @@ msgstr "Viento"
 
 #: ../../../lang/stb.php:14 ../../../lang/stb.php:189
 msgid "m/s"
-msgstr "Sra"
+msgstr "m/s"
 
 #: ../../../lang/stb.php:15
 msgid "Humidity"
@@ -8259,7 +8259,7 @@ msgstr "Humedad"
 
 #: ../../../lang/stb.php:16
 msgid "Current weather unavailable"
-msgstr "Tiempo de hoy no disponible"
+msgstr "El Tiempo no está disponible"
 
 #: ../../../lang/stb.php:17
 msgid "The weather is not configured"
