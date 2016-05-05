@@ -1,11 +1,17 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: stalker_portal\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-02 00:50+0100\n"
+"PO-Revision-Date: 2016-05-02 00:50+0100\n"
+"Last-Translator: Juan Gomez <jgomez@ideosoft.es>\n"
+"Language-Team: Ideosoft\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
+"X-Generator: Ideosoft\n"
 "Project-Id-Version: Stalker\n"
-"Language: es\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../../../../admin/src/Controller/TvChannelsController.php:41
@@ -74,8 +80,7 @@ msgstr "con problemas"
 #: ../../../../admin/src/Controller/TvChannelsController.php:412
 #: ../../../../admin/src/Controller/TvChannelsController.php:430
 msgid "Cannot find channel"
-msgstr "No se encontro el canal\n"
-""
+msgstr "No se encontro el canal"
 
 #: ../../../../admin/src/Controller/TvChannelsController.php:363
 #: ../../../../admin/src/Controller/VideoClubController.php:585
@@ -1623,7 +1628,7 @@ msgstr "Día"
 #: ../../../administrator/add_video.php:543
 #: ../../../administrator/add_epg.php:140
 msgid "January"
-msgstr "enero"
+msgstr "Enero"
 
 #: ../../../../admin/src/Controller/EventsController.php:74
 #: ../../../administrator/userlog.php:166
@@ -1632,7 +1637,7 @@ msgstr "enero"
 #: ../../../administrator/add_video.php:544
 #: ../../../administrator/add_epg.php:141
 msgid "February"
-msgstr "febrero"
+msgstr "Febrero"
 
 #: ../../../../admin/src/Controller/EventsController.php:75
 #: ../../../administrator/userlog.php:167
@@ -1641,7 +1646,7 @@ msgstr "febrero"
 #: ../../../administrator/add_video.php:545
 #: ../../../administrator/add_epg.php:142
 msgid "March"
-msgstr "marzo"
+msgstr "Marzo"
 
 #: ../../../../admin/src/Controller/EventsController.php:76
 #: ../../../administrator/userlog.php:168
@@ -1650,7 +1655,7 @@ msgstr "marzo"
 #: ../../../administrator/add_video.php:546
 #: ../../../administrator/add_epg.php:143
 msgid "April"
-msgstr "abril"
+msgstr "Abril"
 
 #: ../../../../admin/src/Controller/EventsController.php:77
 #: ../../../adm/js/js_translate.php:48 ../../../lib/gismeteo.class.php:31
@@ -1669,7 +1674,7 @@ msgstr "Mayo"
 #: ../../../administrator/add_video.php:548
 #: ../../../administrator/add_epg.php:145
 msgid "June"
-msgstr "junio"
+msgstr "Junio"
 
 #: ../../../../admin/src/Controller/EventsController.php:79
 #: ../../../administrator/userlog.php:171
@@ -1687,7 +1692,7 @@ msgstr "julio"
 #: ../../../administrator/add_video.php:550
 #: ../../../administrator/add_epg.php:147
 msgid "August"
-msgstr "agosto"
+msgstr "Agosto"
 
 #: ../../../../admin/src/Controller/EventsController.php:81
 #: ../../../administrator/userlog.php:173
@@ -1696,7 +1701,7 @@ msgstr "agosto"
 #: ../../../administrator/add_video.php:551
 #: ../../../administrator/add_epg.php:148
 msgid "September"
-msgstr "septiembre"
+msgstr "Septiembre"
 
 #: ../../../../admin/src/Controller/EventsController.php:82
 #: ../../../administrator/userlog.php:174
@@ -1705,7 +1710,7 @@ msgstr "septiembre"
 #: ../../../administrator/add_video.php:552
 #: ../../../administrator/add_epg.php:149
 msgid "October"
-msgstr "octubre"
+msgstr "Octubre"
 
 #: ../../../../admin/src/Controller/EventsController.php:83
 #: ../../../administrator/userlog.php:175
@@ -1714,7 +1719,7 @@ msgstr "octubre"
 #: ../../../administrator/add_video.php:553
 #: ../../../administrator/add_epg.php:150
 msgid "November"
-msgstr "noviembre"
+msgstr "Noviembre"
 
 #: ../../../../admin/src/Controller/EventsController.php:84
 #: ../../../administrator/userlog.php:176
@@ -1723,56 +1728,56 @@ msgstr "noviembre"
 #: ../../../administrator/add_video.php:554
 #: ../../../administrator/add_epg.php:151
 msgid "December"
-msgstr "diciembre"
+msgstr "Diciembre"
 
 #: ../../../../admin/src/Controller/EventsController.php:88
 #: ../../../lib/epg.class.php:871 ../../../lib/gismeteo.class.php:29
 #: ../../../administrator/profile.php:197
 #: ../../../administrator/add_video.php:533
 msgid "Mon"
-msgstr "Lunes"
+msgstr "Lun"
 
 #: ../../../../admin/src/Controller/EventsController.php:89
 #: ../../../lib/epg.class.php:871 ../../../lib/gismeteo.class.php:29
 #: ../../../administrator/profile.php:198
 #: ../../../administrator/add_video.php:534
 msgid "Tue"
-msgstr "Martes"
+msgstr "Mar"
 
 #: ../../../../admin/src/Controller/EventsController.php:90
 #: ../../../lib/epg.class.php:871 ../../../lib/gismeteo.class.php:29
 #: ../../../administrator/profile.php:199
 #: ../../../administrator/add_video.php:535
 msgid "Wed"
-msgstr "Casarse"
+msgstr "Mie"
 
 #: ../../../../admin/src/Controller/EventsController.php:91
 #: ../../../lib/epg.class.php:871 ../../../lib/gismeteo.class.php:29
 #: ../../../administrator/profile.php:200
 #: ../../../administrator/add_video.php:536
 msgid "Thu"
-msgstr "Jueves"
+msgstr "Jue"
 
 #: ../../../../admin/src/Controller/EventsController.php:92
 #: ../../../lib/epg.class.php:871 ../../../lib/gismeteo.class.php:29
 #: ../../../administrator/profile.php:201
 #: ../../../administrator/add_video.php:537
 msgid "Fri"
-msgstr "Viernes"
+msgstr "Vie"
 
 #: ../../../../admin/src/Controller/EventsController.php:93
 #: ../../../lib/epg.class.php:871 ../../../lib/gismeteo.class.php:29
 #: ../../../administrator/profile.php:202
 #: ../../../administrator/add_video.php:538
 msgid "Sat"
-msgstr "Sábado"
+msgstr "Sab"
 
 #: ../../../../admin/src/Controller/EventsController.php:94
 #: ../../../lib/epg.class.php:871 ../../../lib/gismeteo.class.php:29
 #: ../../../administrator/profile.php:196
 #: ../../../administrator/add_video.php:532
 msgid "Sun"
-msgstr "Sol"
+msgstr "Dom"
 
 #: ../../../../admin/src/Controller/EventsController.php:157
 #: ../../../../admin/json_menu/menu.json:199
@@ -1985,7 +1990,7 @@ msgstr "Última carrera"
 #: ../../../../admin/src/Controller/VideoClubController.php:139
 #: ../../../../admin/json_menu/menu.json:43
 msgid "Movie list"
-msgstr "lista de películas"
+msgstr "Películas"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:96
 msgid "Add movie"
@@ -2014,7 +2019,7 @@ msgstr "Editar comercial"
 #: ../../../../admin/src/Controller/VideoClubController.php:299
 #: ../../../../admin/json_menu/menu.json:58
 msgid "Moderators"
-msgstr "moderadores"
+msgstr "Moderadores"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:272
 msgid "Add moderator"
@@ -2278,7 +2283,7 @@ msgstr "Categoría"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:2342
 msgid "Movies in genre"
-msgstr "Películas de género"
+msgstr "Películas del género"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:2375
 #: ../../../../admin/src/Controller/UsersController.php:2047
@@ -2317,7 +2322,7 @@ msgstr "Dirección MAC"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:2377
 msgid "Advertising is disabled"
-msgstr "La publicidad es discapacitado"
+msgstr "La publicidad está desactivada"
 
 #: ../../../../admin/src/Controller/VideoClubController.php:2398
 #: ../../../../admin/src/Controller/StatisticsController.php:1417
@@ -2348,11 +2353,11 @@ msgstr "Añadir zona"
 
 #: ../../../../admin/src/Controller/BroadcastServersController.php:137
 msgid "Edit area"
-msgstr "área de edición"
+msgstr "Área de edición"
 
 #: ../../../../admin/src/Controller/BroadcastServersController.php:356
 msgid "Invalid data"
-msgstr "Los datos no válidos"
+msgstr "Datos inválidos"
 
 #: ../../../../admin/src/Controller/BroadcastServersController.php:386
 msgid "Quantity of countries"
@@ -2381,7 +2386,7 @@ msgstr "Tal vez la aplicación ya está instalada. Puede actualizarla si la nuev
 
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:154
 msgid "URL of application is not defined"
-msgstr "URL de aplicación no se define"
+msgstr "La URL de la aplicación no está definida"
 
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:193
 msgid "Failed to get the list of versions of this applications"
@@ -2395,15 +2400,15 @@ msgstr "Error al actualizar los parámetros de inicio de aplicaciones"
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:289
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:326
 msgid "Application is undefined"
-msgstr "Aplicación no está definido"
+msgstr "La aplicación no está definida"
 
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:281
 msgid "Error of installing the application"
-msgstr "Error de instalación de la aplicación"
+msgstr "Error en la instalación de la aplicación"
 
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:322
 msgid "Error of uninstalling the application."
-msgstr "Error de desinstalación de la aplicación."
+msgstr "Error en la desinstalación de la aplicación."
 
 #: ../../../../admin/src/Controller/ApplicationCatalogController.php:365
 msgid "Activated. Current version"
@@ -2538,7 +2543,7 @@ msgstr "Por géneros"
 #: ../../../../admin/src/Controller/StatisticsController.php:46
 #: ../../../administrator/users.php:162 ../../../lang/stb.php:92
 msgid "TV"
-msgstr "televisión"
+msgstr "TV"
 
 #: ../../../../admin/src/Controller/StatisticsController.php:41
 #: ../../../../admin/src/Controller/StatisticsController.php:47
@@ -3248,7 +3253,7 @@ msgstr "El nombre del grupo está disponible"
 
 #: ../../../../admin/src/Controller/AdminsController.php:451
 msgid "{admin_count} administrators to be moved to another group before deleting"
-msgstr "{} Admin_count los administradores que ser trasladado a otro grupo antes de eliminar"
+msgstr "{admin_count} los administradores que ser trasladado a otro grupo antes de eliminar"
 
 #: ../../../../admin/src/Controller/AdminsController.php:643
 msgid "Found members of this reseller. Deleting not possible."
@@ -3846,7 +3851,7 @@ msgstr "De las películas"
 
 #: ../../../tools/misctranslations.php:207
 msgid "Clear"
-msgstr "Claro"
+msgstr "Despejado"
 
 #: ../../../tools/misctranslations.php:208
 msgid "Partly Cloudy"
@@ -3858,15 +3863,15 @@ msgstr "Nublado"
 
 #: ../../../tools/misctranslations.php:210
 msgid "Overcast"
-msgstr "Nublado"
+msgstr "Nuboso"
 
 #: ../../../tools/misctranslations.php:211
 msgid "Little rain"
-msgstr "Poca lluvia"
+msgstr "Chubascos dispersos"
 
 #: ../../../tools/misctranslations.php:212
 msgid "Rain"
-msgstr "Lluvia"
+msgstr "Chubascos"
 
 #: ../../../tools/misctranslations.php:213
 msgid "Thunderstorm"
@@ -3890,15 +3895,15 @@ msgstr "Nevada"
 
 #: ../../../tools/misctranslations.php:220
 msgid "N"
-msgstr "norte"
+msgstr "N"
 
 #: ../../../tools/misctranslations.php:222
 msgid "NE"
-msgstr "nordeste"
+msgstr "NE"
 
 #: ../../../tools/misctranslations.php:224
 msgid "E"
-msgstr "mi"
+msgstr "E"
 
 #: ../../../tools/misctranslations.php:226
 msgid "SE"
@@ -3914,11 +3919,11 @@ msgstr "SO"
 
 #: ../../../tools/misctranslations.php:232
 msgid "W"
-msgstr "W"
+msgstr "O"
 
 #: ../../../tools/misctranslations.php:234
 msgid "NW"
-msgstr "noroeste"
+msgstr "NO"
 
 #: ../../../tools/misctranslations.php:236
 msgid "Tariff plan is changed, please restart your STB"
@@ -4768,7 +4773,7 @@ msgstr "Informe sobre cambios de estado STB por página + filtros"
 
 #: ../../../tools/misctranslations.php:469
 msgid "List of movies"
-msgstr "Lista de películas"
+msgstr "Listado de películas"
 
 #: ../../../tools/misctranslations.php:470
 msgid "List of movies by page + filters"
@@ -5204,79 +5209,79 @@ msgstr "a"
 
 #: ../../../tools/misctranslations.php:585
 msgid "Monday"
-msgstr "lunes"
+msgstr "Lunes"
 
 #: ../../../tools/misctranslations.php:586
 msgid "Tuesday"
-msgstr "martes"
+msgstr "Martes"
 
 #: ../../../tools/misctranslations.php:587
 msgid "Wednesday"
-msgstr "miércoles"
+msgstr "Miércoles"
 
 #: ../../../tools/misctranslations.php:588
 msgid "Thursday"
-msgstr "jueves"
+msgstr "Jueves"
 
 #: ../../../tools/misctranslations.php:589
 msgid "Friday"
-msgstr "viernes"
+msgstr "Viernes"
 
 #: ../../../tools/misctranslations.php:590
 msgid "Saturday"
-msgstr "sábado"
+msgstr "Sábado"
 
 #: ../../../tools/misctranslations.php:591
 msgid "Sunday"
-msgstr "domingo"
+msgstr "Domingo"
 
 #: ../../../tools/misctranslations.php:593
 msgid "January_c"
-msgstr "January_c"
+msgstr "Enero"
 
 #: ../../../tools/misctranslations.php:594
 msgid "February_c"
-msgstr "February_c"
+msgstr "Febrero"
 
 #: ../../../tools/misctranslations.php:595
 msgid "March_c"
-msgstr "March_c"
+msgstr "Marzo"
 
 #: ../../../tools/misctranslations.php:596
 msgid "April_c"
-msgstr "April_c"
+msgstr "Abril"
 
 #: ../../../tools/misctranslations.php:597
 msgid "May_c"
-msgstr "May_c"
+msgstr "Mayo"
 
 #: ../../../tools/misctranslations.php:598
 msgid "June_c"
-msgstr "June_c"
+msgstr "Junio"
 
 #: ../../../tools/misctranslations.php:599
 msgid "July_c"
-msgstr "July_c"
+msgstr "Julio"
 
 #: ../../../tools/misctranslations.php:600
 msgid "August_c"
-msgstr "August_c"
+msgstr "Agosto"
 
 #: ../../../tools/misctranslations.php:601
 msgid "September_c"
-msgstr "September_c"
+msgstr "Septiembre"
 
 #: ../../../tools/misctranslations.php:602
 msgid "October_c"
-msgstr "October_c"
+msgstr "Octubre"
 
 #: ../../../tools/misctranslations.php:603
 msgid "November_c"
-msgstr "November_c"
+msgstr "Noviembre"
 
 #: ../../../tools/misctranslations.php:604
 msgid "December_c"
-msgstr "December_c"
+msgstr "Deciembre"
 
 #: ../../../tools/misctranslations.php:606
 msgid "List of scheduled events"
@@ -5495,43 +5500,43 @@ msgstr "Esta URL ya existe"
 
 #: ../../../adm/js/js_translate.php:44 ../../../lib/gismeteo.class.php:31
 msgid "Jan"
-msgstr "Enero"
+msgstr "Ene"
 
 #: ../../../adm/js/js_translate.php:45 ../../../lib/gismeteo.class.php:31
 msgid "Feb"
-msgstr "Febrero"
+msgstr "Feb"
 
 #: ../../../adm/js/js_translate.php:46 ../../../lib/gismeteo.class.php:31
 msgid "Mar"
-msgstr "Marzo"
+msgstr "Mar"
 
 #: ../../../adm/js/js_translate.php:47 ../../../lib/gismeteo.class.php:31
 msgid "Apr"
-msgstr "Abril"
+msgstr "Abr"
 
 #: ../../../adm/js/js_translate.php:49 ../../../lib/gismeteo.class.php:31
 msgid "Jun"
-msgstr "Junio"
+msgstr "Jun"
 
 #: ../../../adm/js/js_translate.php:50 ../../../lib/gismeteo.class.php:31
 msgid "Jul"
-msgstr "Julio"
+msgstr "Jul"
 
 #: ../../../adm/js/js_translate.php:51 ../../../lib/gismeteo.class.php:31
 msgid "Aug"
-msgstr "Agosto"
+msgstr "Ago"
 
 #: ../../../adm/js/js_translate.php:52 ../../../lib/gismeteo.class.php:31
 msgid "Sep"
-msgstr "septiembre"
+msgstr "Sep"
 
 #: ../../../adm/js/js_translate.php:53 ../../../lib/gismeteo.class.php:31
 msgid "Oct"
-msgstr "Octubre"
+msgstr "Oct"
 
 #: ../../../adm/js/js_translate.php:54 ../../../lib/gismeteo.class.php:31
 msgid "Nov"
-msgstr "Noviembre"
+msgstr "Nov"
 
 #: ../../../adm/js/js_translate.php:55 ../../../lib/gismeteo.class.php:31
 msgid "Dec"
@@ -5539,135 +5544,135 @@ msgstr "Diciembre"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_1l"
-msgstr "ABC_1l"
+msgstr "A"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_2l"
-msgstr "ABC_2l"
+msgstr "B"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_3l"
-msgstr "ABC_3l"
+msgstr "C"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_4l"
-msgstr "ABC_4l"
+msgstr "D"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_5l"
-msgstr "ABC_5l"
+msgstr "E"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_6l"
-msgstr "ABC_6l"
+msgstr "F"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_7l"
-msgstr "ABC_7l"
+msgstr "G"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_8l"
-msgstr "ABC_8l"
+msgstr "H"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_9l"
-msgstr "ABC_9l"
+msgstr "I"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_10l"
-msgstr "ABC_10l"
+msgstr "G"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_11l"
-msgstr "ABC_11l"
+msgstr "K"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_12l"
-msgstr "ABC_12l"
+msgstr "L"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_13l"
-msgstr "ABC_13l"
+msgstr "M"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_14l"
-msgstr "ABC_14l"
+msgstr "N"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_15l"
-msgstr "ABC_15l"
+msgstr "O"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_16l"
-msgstr "ABC_16l"
+msgstr "P"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_17l"
-msgstr "ABC_17l"
+msgstr "Q"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_18l"
-msgstr "ABC_18l"
+msgstr "R"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_19l"
-msgstr "ABC_19l"
+msgstr "S"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_20l"
-msgstr "ABC_20l"
+msgstr "T"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_21l"
-msgstr "ABC_21l"
+msgstr "U"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_22l"
-msgstr "ABC_22l"
+msgstr "V"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_23l"
-msgstr "ABC_23l"
+msgstr "W"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_24l"
-msgstr "ABC_24l"
+msgstr "X"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_25l"
-msgstr "ABC_25l"
+msgstr "W"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_26l"
-msgstr "ABC_26l"
+msgstr "Z"
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_27l"
-msgstr "ABC_27l"
+msgstr "."
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_28l"
-msgstr "ABC_28l"
+msgstr "."
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_29l"
-msgstr "ABC_29l"
+msgstr "."
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_30l"
-msgstr "ABC_30l"
+msgstr "."
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_31l"
-msgstr "ABC_31l"
+msgstr "."
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_32l"
-msgstr "ABC_32l"
+msgstr "."
 
 #: ../../../lib/ajaxresponse.class.php:40
 msgid "ABC_33l"
-msgstr "ABC_33l"
+msgstr "."
 
 #: ../../../lib/ajaxresponse.class.php:42
 msgid "january"
@@ -5723,21 +5728,21 @@ msgstr "[No hay información de canal]"
 
 #: ../../../lib/ajaxresponse.class.php:208
 msgid "New claim on %s - %s (%s, id: %s). From %s"
-msgstr "Nuevo reclamo en% s -% s (% s, id:% s). De% s"
+msgstr "Nuevo reclamo en %s - %s (%s, id: %s). De %s"
 
 #: ../../../lib/coursecbr.class.php:31 ../../../lib/course.class.php:30
 #: ../../../lang/stb.php:181
 msgid "Exchange rate on"
-msgstr "Tipo de cambio del"
+msgstr "Tipo de cambio en"
 
 #: ../../../lib/system.class.php:69 ../../../lib/user.class.php:1081
 #: ../../../administrator/services_packages.php:439
 msgid "h"
-msgstr "marido"
+msgstr "h"
 
 #: ../../../lib/system.class.php:74
 msgid "m"
-msgstr "metro"
+msgstr "m"
 
 #: ../../../lib/system.class.php:79 ../../../administrator/events.php:462
 #: ../../../administrator/stat_tv_archive.php:105
@@ -5777,15 +5782,15 @@ msgstr "errores"
 
 #: ../../../lib/epg.class.php:251
 msgid "Successful: %s channels"
-msgstr "Exitosa:% s canales"
+msgstr "Exitosa: %s canales"
 
 #: ../../../lib/epg.class.php:252
 msgid "Deleted: %s records"
-msgstr "Eliminado:% s registros"
+msgstr "Eliminado: %s registros"
 
 #: ../../../lib/epg.class.php:253
 msgid "Queries"
-msgstr "consultas"
+msgstr "Consultas"
 
 #: ../../../lib/epg.class.php:254
 msgid "Exec time"
@@ -5794,97 +5799,97 @@ msgstr "tiempo Exec"
 #: ../../../lib/epg.class.php:517 ../../../lib/epg.class.php:604
 #: ../../../lib/epg.class.php:927
 msgid "%H:%i"
-msgstr "%Hola"
+msgstr "%H:%i"
 
 #: ../../../lib/epg.class.php:620 ../../../lang/stb.php:136
 msgid "SUNDAY"
-msgstr "DOMINGO"
+msgstr "Domingo"
 
 #: ../../../lib/epg.class.php:620 ../../../lang/stb.php:136
 msgid "MONDAY"
-msgstr "LUNES"
+msgstr "Lunes"
 
 #: ../../../lib/epg.class.php:620 ../../../lang/stb.php:136
 msgid "TUESDAY"
-msgstr "MARTES"
+msgstr "Martes"
 
 #: ../../../lib/epg.class.php:620 ../../../lang/stb.php:136
 msgid "WEDNESDAY"
-msgstr "MIÉRCOLES"
+msgstr "Miércoles"
 
 #: ../../../lib/epg.class.php:620 ../../../lang/stb.php:136
 msgid "THURSDAY"
-msgstr "JUEVES"
+msgstr "Jueves"
 
 #: ../../../lib/epg.class.php:620 ../../../lang/stb.php:136
 msgid "FRIDAY"
-msgstr "VIERNES"
+msgstr "Viernes"
 
 #: ../../../lib/epg.class.php:620 ../../../lang/stb.php:136
 msgid "SATURDAY"
-msgstr "SÁBADO"
+msgstr "Sábado"
 
 #: ../../../lib/epg.class.php:838 ../../../lib/epg.class.php:839
 #: ../../../lib/epg.class.php:840 ../../../lib/epg.class.php:841
 msgid "H:i"
-msgstr "Hola"
+msgstr "H:i"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "JANUARY"
-msgstr "ENERO"
+msgstr "Enero"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "FEBRUARY"
-msgstr "FEBRERO"
+msgstr "Febrero"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "MARCH"
-msgstr "MARZO"
+msgstr "Marzo"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "APRIL"
-msgstr "ABRIL"
+msgstr "Abril"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "MAY"
-msgstr "MAYO"
+msgstr "Mayo"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "JUNE"
-msgstr "JUNIO"
+msgstr "Junio"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "JULY"
-msgstr "JULIO"
+msgstr "Julio"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "AUGUST"
-msgstr "AGOSTO"
+msgstr "Agosto"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "SEPTEMBER"
-msgstr "SEPTIEMBRE"
+msgstr "Septiembre"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "OCTOBER"
-msgstr "OCTUBRE"
+msgstr "Octubre"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "NOVEMBER"
-msgstr "NOVIEMBRE"
+msgstr "Noviembre"
 
 #: ../../../lib/epg.class.php:875 ../../../lang/stb.php:135
 msgid "DECEMBER"
-msgstr "DICIEMBRE"
+msgstr "Diciembre"
 
 #: ../../../lib/admin.class.php:181
 msgid "Action \"%s\" denied for page \"%s\""
-msgstr "Acción \"% s\" rechazada por página \"% s\""
+msgstr "Acción \"%s\" rechazada por página \"%s\""
 
 #: ../../../lib/video.class.php:95 ../../../lib/vod.class.php:794
 #: ../../../lib/user.class.php:1127 ../../../lib/user.class.php:1128
 msgid "video_name_format"
-msgstr "video_name_format"
+msgstr "%2$s"
 
 #: ../../../lib/itv.class.php:634
 msgid "DVB"
@@ -5931,9 +5936,10 @@ msgstr "se alcanza la grabación límite de duración"
 
 #: ../../../lib/accountinfo.class.php:46
 msgid "end_date_format"
-msgstr "end_date_format"
+msgstr "d.m.Y"
 
 #: ../../../lib/accountinfo.class.php:46 ../../../lib/user.class.php:1077
+#, php-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] "%d día"
@@ -5965,21 +5971,21 @@ msgstr "No suscrito"
 
 #: ../../../lib/radio.class.php:311
 msgid "Radio-channel %s set to active because its URL became available."
-msgstr "Radio-canal% s conjunto de activos porque su URL llegó a estar disponible."
+msgstr "Radio-channel %s seteado como activo debido a que URL está disponible."
 
 #: ../../../lib/radio.class.php:320
 msgid "Radio-channel %s set to inactive because its URL are not available."
-msgstr "Radio-canal% s define como inactivo debido a que su URL no están disponibles."
+msgstr "Radio-channel %s defindo como inactivo debido a que su URL no esta disponible."
 
 #: ../../../lib/audioclub.class.php:19
 #: ../../../../admin/json_menu/menu.json:91
 msgid "Artists"
-msgstr "artistas"
+msgstr "Artistas"
 
 #: ../../../lib/audioclub.class.php:23 ../../../administrator/playlists.php:99
 #: ../../../administrator/playlists.php:105
 msgid "Playlists"
-msgstr "las listas de reproducción"
+msgstr "Listas de reproducción"
 
 #: ../../../lib/audioclub.class.php:27
 #: ../../../administrator/audio_album.php:393
@@ -5998,7 +6004,7 @@ msgstr "Años"
 
 #: ../../../lib/tvarchive.class.php:378
 msgid "Break in the program"
-msgstr "Romper en el programa"
+msgstr "Parar en el programa"
 
 #: ../../../lib/stb.class.php:405
 msgid "The portal is temporarily unavailable.<br>Please try again later.<br>Sorry for the inconvenience."
@@ -6018,7 +6024,7 @@ msgstr "Bienvenido %s<br> Estamos encantados de verte en el portal de Stalker!"
 
 #: ../../../lib/weatherco.class.php:131 ../../../lib/weatherco.class.php:156
 msgid "city_name_field"
-msgstr "city_name_field"
+msgstr "name_es"
 
 #: ../../../lib/vod.class.php:893
 msgid "last week"
@@ -6026,7 +6032,7 @@ msgstr "la semana pasada"
 
 #: ../../../lib/vod.class.php:922
 msgid "coming soon"
-msgstr "próximamente"
+msgstr "Próximamente"
 
 #: ../../../lib/gismeteo.class.php:30
 msgid "Night"
@@ -6042,7 +6048,7 @@ msgstr "Noche"
 
 #: ../../../lib/gismeteo.class.php:32
 msgid "clear"
-msgstr "claro"
+msgstr "Limpio"
 
 #: ../../../lib/gismeteo.class.php:32
 msgid "partly cloudy"
@@ -6050,23 +6056,23 @@ msgstr "parcialmente nublado"
 
 #: ../../../lib/gismeteo.class.php:32
 msgid "cloudy"
-msgstr "nublado"
+msgstr "Nublado"
 
 #: ../../../lib/gismeteo.class.php:32
 msgid "overcast"
-msgstr "nublado"
+msgstr "Nublado"
 
 #: ../../../lib/gismeteo.class.php:33
 msgid "rain"
-msgstr "lluvia"
+msgstr "Lluvia"
 
 #: ../../../lib/gismeteo.class.php:33
 msgid "rainfall"
-msgstr "lluvia"
+msgstr "Lluvia"
 
 #: ../../../lib/gismeteo.class.php:33
 msgid "snow"
-msgstr "nieve"
+msgstr "Nieve"
 
 #: ../../../lib/gismeteo.class.php:33
 msgid "thunderstorm"
@@ -6096,15 +6102,15 @@ msgstr "min"
 
 #: ../../../lib/user.class.php:1139
 msgid "Radio channels"
-msgstr "canales de radio"
+msgstr "Canales de radio"
 
 #: ../../../lib/user.class.php:1140
 msgid "Modules"
-msgstr "módulos"
+msgstr "Módulos"
 
 #: ../../../lib/user.class.php:1141
 msgid "Options"
-msgstr "opciones"
+msgstr "Opciones"
 
 #: ../../../administrator/stat_tv_users.php:58
 #: ../../../administrator/stat_tv_users.php:64
@@ -6179,11 +6185,11 @@ msgstr "Vistas las estadísticas de usuarios de televisión al mes"
 #: ../../../administrator/add_radio.php:144
 #: ../../../administrator/claims.php:93
 msgid "Back"
-msgstr "Espalda"
+msgstr "Atras"
 
 #: ../../../administrator/stat_tv_users.php:132
 msgid "Counting if channel is playing more than 30 minutes"
-msgstr "Contando si el canal está jugando más de 30 minutos"
+msgstr "Contando si el canal está reproduciendose más de 30 minutos"
 
 #: ../../../administrator/stat_tv_users.php:141
 #: ../../../administrator/audio_album.php:414
@@ -6514,7 +6520,7 @@ msgstr "Ejecutante"
 #: ../../../administrator/audio_track.php:341 ../../../lang/stb.php:77
 #: ../../../lang/stb.php:336
 msgid "add"
-msgstr "añadir"
+msgstr "Añadir"
 
 #: ../../../administrator/audio_album.php:502 ../../../lang/stb.php:547
 msgid "Album"
@@ -6580,11 +6586,11 @@ msgstr "probadores"
 
 #: ../../../administrator/testers.php:163
 msgid "Are you sure you want to change the status of the tester %s?"
-msgstr "¿Seguro que desea cambiar el estado del probador% s?"
+msgstr "¿Seguro que desea cambiar el estado del probador%s?"
 
 #: ../../../administrator/testers.php:165
 msgid "Are you sure you want to remove the tester %s?"
-msgstr "¿Seguro que desea eliminar el probador% s?"
+msgstr "¿Seguro que desea eliminar el probador%s?"
 
 #: ../../../administrator/audio_year.php:100
 #: ../../../administrator/audio_year.php:149
@@ -6665,7 +6671,7 @@ msgstr "puntos de vista actuales sobre el almacenamiento"
 #: ../../../administrator/events.php:97 ../../../administrator/events.php:110
 #: ../../../administrator/events.php:137
 msgid "%s events %s sended, %s errors"
-msgstr "% s% s sended eventos,% s errores"
+msgstr "%s%s sended eventos,%s errores"
 
 #: ../../../administrator/events.php:141
 msgid "File with list is missing"
@@ -7010,12 +7016,12 @@ msgstr "Cancelar"
 #: ../../../administrator/audio_track.php:137
 #: ../../../administrator/audio_track.php:208
 msgid "AUDIO TRACKS"
-msgstr "Las pistas de audio"
+msgstr "Pistas de audio"
 
 #: ../../../administrator/audio_track.php:215
 #: ../../../../admin/json_menu/menu.json:101
 msgid "Languages"
-msgstr "idiomas"
+msgstr "Idiomas"
 
 #: ../../../administrator/audio_track.php:235
 msgid "search by track name"
@@ -7065,15 +7071,15 @@ msgstr "importación de suscripción"
 
 #: ../../../administrator/users.php:170
 msgid "Media browser"
-msgstr "navegador de medios"
+msgstr "Multimedia"
 
 #: ../../../administrator/users.php:171
 msgid "Tv archive"
-msgstr "archivo de tv"
+msgstr "Archivo de TV"
 
 #: ../../../administrator/users.php:173
 msgid "TimeShift"
-msgstr "Cambio de hora"
+msgstr "TimeShift"
 
 #: ../../../administrator/users.php:174 ../../../administrator/users.php:175
 #: ../../../administrator/users.php:176 ../../../administrator/users.php:177
@@ -7278,7 +7284,7 @@ msgstr "zonas Stream"
 
 #: ../../../administrator/stream_zones.php:271
 msgid "Are you sure you want to delete record %s?"
-msgstr "¿Seguro que desea eliminar el registro% s?"
+msgstr "¿Seguro que desea eliminar el registro%s?"
 
 #: ../../../administrator/stream_zones.php:290
 msgid "Default zone"
@@ -7320,15 +7326,15 @@ msgstr "Última visualización de vídeo"
 
 #: ../../../administrator/stbgroups.php:140
 msgid "Are you sure you want to delete the group %s from the database?"
-msgstr "¿Seguro que quiere eliminar el grupo% s de la base de datos?"
+msgstr "¿Seguro que quiere eliminar el grupo%s de la base de datos?"
 
 #: ../../../administrator/storages.php:129
 msgid "Cache %s is cleared"
-msgstr "Caché% s se borra"
+msgstr "Caché%s se borra"
 
 #: ../../../administrator/storages.php:132
 msgid "Storage with id %s not found"
-msgstr "Almacenamiento con id% s no encontrado"
+msgstr "Almacenamiento con id%s no encontrado"
 
 #: ../../../administrator/storages.php:143
 msgid "Cache is cleared"
@@ -7365,11 +7371,11 @@ msgstr "ruta a la página"
 
 #: ../../../administrator/storages.php:271
 msgid "Are you sure you want to change the status of the storage %s?"
-msgstr "¿Seguro que desea cambiar el estado del almacenamiento% s?"
+msgstr "¿Seguro que desea cambiar el estado del almacenamiento%s?"
 
 #: ../../../administrator/storages.php:272
 msgid "Are you sure you want to reset the cache of the storage %s?"
-msgstr "¿Seguro que desea restablecer la memoria caché del almacenamiento% s?"
+msgstr "¿Seguro que desea restablecer la memoria caché del almacenamiento%s?"
 
 #: ../../../administrator/storages.php:272
 msgid "clear cache"
@@ -7421,11 +7427,11 @@ msgstr "Solamente los moderadores"
 
 #: ../../../administrator/today_user_status_report.php:24
 msgid "Report for the stb status changed on %s on %s"
-msgstr "Informe de status de la STB cambió el% s en% s"
+msgstr "Informe de status de la STB cambió el%s en%s"
 
 #: ../../../administrator/today_user_status_report.php:40
 msgid "Report of the stb status changing on %s on %s"
-msgstr "Informe del estado del STB cambiar el% s en% s"
+msgstr "Informe del estado del STB cambiar el%s en%s"
 
 #: ../../../administrator/today_user_status_report.php:45
 msgid "Current status"
@@ -8229,7 +8235,7 @@ msgstr "Acción \"editar\" negada para la página \"add_itv\""
 
 #: ../../../lang/stb.php:10
 msgid "Comfort"
-msgstr "Comodidad"
+msgstr "Temperatura"
 
 #: ../../../lang/stb.php:11
 msgid "Pressure"
@@ -8245,7 +8251,7 @@ msgstr "Viento"
 
 #: ../../../lang/stb.php:14 ../../../lang/stb.php:189
 msgid "m/s"
-msgstr "Sra"
+msgstr "m/s"
 
 #: ../../../lang/stb.php:15
 msgid "Humidity"
@@ -8253,7 +8259,7 @@ msgstr "Humedad"
 
 #: ../../../lang/stb.php:16
 msgid "Current weather unavailable"
-msgstr "Tiempo de hoy no disponible"
+msgstr "El Tiempo no está disponible"
 
 #: ../../../lang/stb.php:17
 msgid "The weather is not configured"
@@ -8276,11 +8282,11 @@ msgstr "BUSCAR"
 
 #: ../../../lang/stb.php:23
 msgid "PICKING"
-msgstr "COSECHA"
+msgstr "SELECCIÓN"
 
 #: ../../../lang/stb.php:24 ../../../lang/stb.php:114
 msgid "BY LETTER"
-msgstr "POR CARTA"
+msgstr "ALFABÉTICO"
 
 #: ../../../lang/stb.php:25
 msgid "BY NAME"
@@ -8300,11 +8306,11 @@ msgstr "DE"
 
 #: ../../../lang/stb.php:32
 msgid "FOUND"
-msgstr "ENCONTRÓ"
+msgstr "ENCONTRADOS"
 
 #: ../../../lang/stb.php:33 ../../../lang/stb.php:142
 msgid "RECORDS"
-msgstr "ARCHIVOS"
+msgstr "REGISTROS"
 
 #: ../../../lang/stb.php:34
 msgid "LOADING..."
@@ -8316,7 +8322,7 @@ msgstr "Cargando..."
 
 #: ../../../lang/stb.php:38
 msgid "Media Browser"
-msgstr "Navegador de medios"
+msgstr "Multimedia"
 
 #: ../../../lang/stb.php:39
 msgid "connected"
@@ -8328,7 +8334,7 @@ msgstr "desconectado"
 
 #: ../../../lang/stb.php:43
 msgid "USB drive"
-msgstr "unidad USB"
+msgstr "Unidad USB"
 
 #: ../../../lang/stb.php:46
 msgid "The number of connections is limited. <br> Try again later"
@@ -8360,7 +8366,7 @@ msgstr "Subtítulos"
 
 #: ../../../lang/stb.php:55
 msgid "Complain"
-msgstr "Quejar"
+msgstr "Reclamar"
 
 #: ../../../lang/stb.php:56
 msgid "on sound"
@@ -8388,7 +8394,7 @@ msgstr "caber"
 
 #: ../../../lang/stb.php:64
 msgid "zoom"
-msgstr "enfocar"
+msgstr "zoom"
 
 #: ../../../lang/stb.php:65
 msgid "optimal"
@@ -8396,11 +8402,11 @@ msgstr "óptima"
 
 #: ../../../lang/stb.php:66
 msgid "stretch"
-msgstr "tramo"
+msgstr "estender"
 
 #: ../../../lang/stb.php:67
 msgid "combined"
-msgstr "conjunto"
+msgstr "combinado"
 
 #: ../../../lang/stb.php:72 ../../../lang/stb.php:84 ../../../lang/stb.php:111
 msgid "FAVORITE"
@@ -8416,7 +8422,7 @@ msgstr "por titulo"
 
 #: ../../../lang/stb.php:76 ../../../lang/stb.php:88
 msgid "only favorite"
-msgstr "único favorito"
+msgstr "favorito único"
 
 #: ../../../lang/stb.php:78 ../../../lang/stb.php:337
 msgid "del"
@@ -8484,7 +8490,7 @@ msgstr "buscar"
 
 #: ../../../lang/stb.php:119
 msgid "picking"
-msgstr "cosecha"
+msgstr "seleccion"
 
 #: ../../../lang/stb.php:121
 msgid "by addtime"
@@ -8492,7 +8498,7 @@ msgstr "por addTime"
 
 #: ../../../lang/stb.php:122
 msgid "rating"
-msgstr "clasificación"
+msgstr "valoración"
 
 #: ../../../lang/stb.php:124
 msgid "favorite only"
@@ -8512,7 +8518,7 @@ msgstr "VIDEOCLUB"
 
 #: ../../../lang/stb.php:130
 msgid "Purchased"
-msgstr "comprado"
+msgstr "Comprado"
 
 #: ../../../lang/stb.php:131
 msgid "rent expires in"
@@ -8520,11 +8526,11 @@ msgstr "alquiler expira en"
 
 #: ../../../lang/stb.php:134
 msgid "Your STB is blocked.<br/> Call the provider."
-msgstr "Su receptor está bloqueado. <br/> Llame al proveedor."
+msgstr "Su receptor está bloqueado.<br/> Llame al su proveedor."
 
 #: ../../../lang/stb.php:145
 msgid "BACK"
-msgstr "ESPALDA"
+msgstr "ATRAS"
 
 #: ../../../lang/stb.php:146
 msgid "ABOUT MOVIE"
@@ -8532,15 +8538,15 @@ msgstr "ACERCA DE LA PELÍCULA"
 
 #: ../../../lang/stb.php:147
 msgid "TV GUIDE"
-msgstr "GUÍA DE TELEVISIÓN"
+msgstr "PROGRAMACIÓN"
 
 #: ../../../lang/stb.php:148 ../../../lang/stb.php:395
 msgid "PACKAGE INFO"
-msgstr "Datos del paquete"
+msgstr "INFORMACIÓN DEL PAQUETE"
 
 #: ../../../lang/stb.php:151
 msgid "SETTINGS"
-msgstr "AJUSTES"
+msgstr "CONFIGURACIÓN"
 
 #: ../../../lang/stb.php:152 ../../../lang/stb.php:172
 #: ../../../lang/stb.php:274
@@ -8561,7 +8567,7 @@ msgstr "CONTROL PARENTAL"
 
 #: ../../../lang/stb.php:156
 msgid "PARENTAL"
-msgstr "DE LOS PADRES"
+msgstr "PARENTAL"
 
 #: ../../../lang/stb.php:157
 msgid "New password"
@@ -8577,15 +8583,15 @@ msgstr "Ajustes guardados"
 
 #: ../../../lang/stb.php:161
 msgid "Settings saved.<br>The STB will be rebooted. Press OK."
-msgstr "Se reiniciará la configuración guardada. Francia El STB. Presiona OK."
+msgstr "Configuración guardada.<BR>Se reiniciará el Decodificador. Presiona OK."
 
 #: ../../../lang/stb.php:162
 msgid "Error filling fields"
-msgstr "campos de error de llenado"
+msgstr "Error en los campos"
 
 #: ../../../lang/stb.php:163
 msgid "Saving error"
-msgstr "error al guardar"
+msgstr "Error al guardar"
 
 #: ../../../lang/stb.php:165
 msgid "LOCALIZATION"
@@ -8601,7 +8607,7 @@ msgstr "Ciudad"
 
 #: ../../../lang/stb.php:169
 msgid "Use PAGE-/+ buttons to move through several menu items"
-msgstr "Use PAGE botones - / + para desplazarse por varios elementos de menú"
+msgstr "Usar botones PAGE-/+ para desplazarse por los elementos del menú"
 
 #: ../../../lang/stb.php:171
 msgid "SOFTWARE UPDATE"
@@ -8617,11 +8623,11 @@ msgstr "Desde HTTP"
 
 #: ../../../lang/stb.php:175
 msgid "From USB"
-msgstr "desde USB"
+msgstr "Desde USB"
 
 #: ../../../lang/stb.php:177
 msgid "Method select"
-msgstr "método seleccione"
+msgstr "método seleccionado"
 
 #: ../../../lang/stb.php:179
 msgid "EMPTY"
@@ -8641,7 +8647,7 @@ msgstr "CLIMA"
 
 #: ../../../lang/stb.php:186
 msgid "pres.:"
-msgstr "Pres .:"
+msgstr "presione.:"
 
 #: ../../../lang/stb.php:188
 msgid "wind:"
@@ -8649,7 +8655,7 @@ msgstr "viento:"
 
 #: ../../../lang/stb.php:191
 msgid "INFOPORTAL"
-msgstr "InfoPortales"
+msgstr "INFOPORTAL"
 
 #: ../../../lang/stb.php:193
 msgid "CITY INFO"
@@ -8673,7 +8679,7 @@ msgstr "HORÓSCOPO"
 
 #: ../../../lang/stb.php:201
 msgid "JOKES"
-msgstr "CHISTES"
+msgstr "BROMAS"
 
 #: ../../../lang/stb.php:203
 msgid "GOTO"
@@ -8709,11 +8715,11 @@ msgstr "CLASIFICACIÓN"
 
 #: ../../../lang/stb.php:214
 msgid "B"
-msgstr "segundo"
+msgstr "B"
 
 #: ../../../lang/stb.php:216
 msgid "C"
-msgstr "do"
+msgstr "C"
 
 #: ../../../lang/stb.php:218
 msgid "Your task is to guess the number of unduplicated four digits, the first of them - not zero. Every your guess will be compared with the number put forth a STB. If you guessed a digit, but it is not in place, then it is a COW (C). If you guessed, and a number, and its location, this BULL (B)."
@@ -8745,7 +8751,7 @@ msgstr "El canal no está disponible"
 
 #: ../../../lang/stb.php:228
 msgid "TV Guide"
-msgstr "guía de televisión"
+msgstr "Programación"
 
 #: ../../../lang/stb.php:229
 msgid "RECORD"
@@ -8761,11 +8767,11 @@ msgstr "Memorándum"
 
 #: ../../../lang/stb.php:232
 msgid "Goto channel"
-msgstr "canal Goto"
+msgstr "Ir a canal"
 
 #: ../../../lang/stb.php:233
 msgid "Close"
-msgstr "Cerca"
+msgstr "Cerrar"
 
 #: ../../../lang/stb.php:235
 msgid "now begins"
@@ -8785,15 +8791,15 @@ msgstr "MÁS"
 
 #: ../../../lang/stb.php:245
 msgid "search_box_languages"
-msgstr "search_box_languages"
+msgstr "es"
 
 #: ../../../lang/stb.php:248
 msgid "date_format"
-msgstr "date_format"
+msgstr "{0}, {1} de {2} de {3}"
 
 #: ../../../lang/stb.php:251
 msgid "time_format"
-msgstr "time_format"
+msgstr "{0}:{1}"
 
 #: ../../../lang/stb.php:253
 msgid "Timezone"
@@ -8895,7 +8901,7 @@ msgstr "PDIF analógicas y S / PCM de 2 canales"
 
 #: ../../../lang/stb.php:288
 msgid "S/PDIF raw or 2-channel PCM"
-msgstr "S / PDIF crudo o 2 canales PCM"
+msgstr "S/PDIF crudo o 2-canales PCM"
 
 #: ../../../lang/stb.php:290
 msgid "GAME"
@@ -9147,7 +9153,7 @@ msgstr "¿Está realmente desea darse de baja de este servicio?"
 
 #: ../../../lang/stb.php:402
 msgid "The service costs {0}"
-msgstr "Los costos del servicio {0}"
+msgstr "Los costos del servicio son {0}"
 
 #: ../../../lang/stb.php:404
 msgid "You have successfully subscribed to the service."
@@ -9183,7 +9189,7 @@ msgstr "Los costes de películas {0}"
 
 #: ../../../lang/stb.php:415
 msgid "Rent duration: {0}h"
-msgstr "duración de alquiler: {0} h"
+msgstr "Duración de alquiler: {0}h"
 
 #: ../../../lang/stb.php:420
 msgid "End date"
@@ -9239,7 +9245,7 @@ msgstr "portal de recarga"
 
 #: ../../../lang/stb.php:442
 msgid "Continue playing?"
-msgstr "Sigue jugando?"
+msgstr "¿Seguir jugando?"
 
 #: ../../../lang/stb.php:444
 msgid "NO"
@@ -9247,7 +9253,7 @@ msgstr "NO"
 
 #: ../../../lang/stb.php:446
 msgid "Do you want to quit the Time Shift mode?"
-msgstr "¿Quieres salir del modo de cambio de tiempo?"
+msgstr "¿Quieres salir del modo Time Shift?"
 
 #: ../../../lang/stb.php:448
 msgid "by name"
@@ -9295,7 +9301,7 @@ msgstr "Dispositivo USB"
 
 #: ../../../lang/stb.php:466
 msgid "rec_stop_msg"
-msgstr "rec_stop_msg"
+msgstr "Grabacion parada — {0} en canal {1}"
 
 #: ../../../lang/stb.php:468
 msgid "The recorded file is missing"
@@ -9924,7 +9930,7 @@ msgstr "Rechazar"
 
 #: 
 msgid "Remove"
-msgstr "retirar"
+msgstr "Quitar"
 
 #: 
 msgid "Remove from favorites"
@@ -9932,7 +9938,7 @@ msgstr "Remover de favoritos"
 
 #: 
 msgid "STB statuses report "
-msgstr "STB estados de informe"
+msgstr "STB estados de informe "
 
 #: 
 msgid "Schedule of publishing"
@@ -11320,7 +11326,7 @@ msgstr "lista de canales"
 
 #: 
 msgid "complete"
-msgstr "completar"
+msgstr "Completo"
 
 #: 
 msgid "edit area"
@@ -11348,7 +11354,7 @@ msgstr "lista de paquetes de servicios"
 
 #: 
 msgid "logs"
-msgstr "troncos"
+msgstr "Registros"
 
 #: 
 msgid "Attributes"
@@ -11356,7 +11362,7 @@ msgstr "Atributos"
 
 #: 
 msgid "Date type"
-msgstr "tipo de fecha"
+msgstr "Tipo de fecha"
 
 #: 
 msgid "Day number"
@@ -11376,7 +11382,7 @@ msgstr "Descripción Filtrar"
 
 #: 
 msgid "IPTV/OTT Set-Top Boxes"
-msgstr "IPTV/OTT set-top boxes"
+msgstr "IPTV/OTT Set-Top Boxes"
 
 #: 
 msgid "If do not selected any of the days of the week the event will be run every day."
@@ -11388,7 +11394,7 @@ msgstr "Si la fecha no se especifica el inicio / final, el evento se repetirá e
 
 #: 
 msgid "Infomir News"
-msgstr "Infomir Noticias"
+msgstr "Noticias"
 
 #: 
 msgid "Powered by"
