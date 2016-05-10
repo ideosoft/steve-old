@@ -19,6 +19,7 @@ function common_xpcom(){
     this.additional_services_on = 0;
     this.header_ua_ext = [];
     this.access_token = '';
+    this.random = '';
 
     this.aspect_idx = 0;
     this.aspect_array = [
@@ -887,6 +888,7 @@ function common_xpcom(){
             function(result){
                 _debug('on handshake', result);
                 this.access_token = result.token || '';
+                this.random       = result.random || '';
 
                 this.not_valid_token = result.not_valid || 0;
 
@@ -909,6 +911,12 @@ function common_xpcom(){
     this.get_user_profile = function(auth_second_step){
         _debug('this.get_user_profile', auth_second_step);
 
+        var device_id2 = stb.GetUID ? (stb.GetUID(this.access_token) == stb.GetUID(this.access_token, this.access_token) ? '' : stb.GetUID('device_id', this.access_token)) : '';
+
+        var metrics = {mac:this.mac, sn:this.serial_number, type:"stb", model:this.type, uid:device_id2};
+
+        _debug('metrics', JSON.stringify(metrics));
+
         this.load(
 
             {
@@ -919,14 +927,17 @@ function common_xpcom(){
                 'num_banks'        : this.num_banks,
                 'sn'               : this.serial_number,
                 'stb_type'         : this.type,
+                'client_type'      : 'STB',
                 'image_version'    : this.image_version,
                 'video_out'        : (stb.GetHDMIConnectionState ? (stb.GetHDMIConnectionState() == 0 && window.innerHeight <= 576 ? "rca" : "hdmi") : ""),
                 'device_id'        : stb.GetUID ? stb.GetUID() : '',
-                'device_id2'       : stb.GetUID ? (stb.GetUID(this.access_token) == stb.GetUID(this.access_token, this.access_token) ? '' : stb.GetUID('device_id', this.access_token)) : '',
+                'device_id2'       : device_id2,
                 'signature'        : stb.GetUID ? stb.GetUID(this.access_token) : '',
                 'auth_second_step' : auth_second_step ? 1 : 0,
                 'hw_version'       : this.hw_version,
-                'not_valid_token'  : this.not_valid_token ? 1 : 0
+                'not_valid_token'  : this.not_valid_token ? 1 : 0,
+                'metrics'          : encodeURIComponent(JSON.stringify(metrics)),
+                'hw_version_2'     : stb.GetHashVersion1 ? stb.GetHashVersion1(JSON.stringify(metrics), this.random) : ''
             },
 
             function(result){
@@ -1050,7 +1061,7 @@ function common_xpcom(){
             return;
         }
 
-        if (this.type != 'MAG200' && this.type != 'MAG260' && !_GET['debug_key']){
+        if (this.type != 'MAG200' && this.type != 'MAG256' && this.type != 'MAG257' && this.type != 'MAG260' && !_GET['debug_key']){
             var match = /Player Engine version: (\S+)/.exec(this.version);
             _debug('match', match);
 
@@ -2097,7 +2108,7 @@ function common_xpcom(){
                 module.tv.clock_box.innerHTML = get_word('time_format').format(this.hours, this.minutes, this.ap_hours, this.ap_mark);
             }
 
-            if (!stb.player.on || (stb.player.on && !stb.player.is_tv)){
+            if (stb.type == 'MAG200' && (!stb.player.on || (stb.player.on && !stb.player.is_tv))){
                 stb.setFrontPanel(this.hours + '' + this.minutes, true);
             }
 
@@ -2325,10 +2336,16 @@ var screensaver = {
 
         _debug('stb.player.on', stb.player.on);
 
-        var video_info = {};
+        var is_playing = false;
 
-        if (stb.GetVideoInfo){
-            video_info = stb.GetVideoInfo();
+        if (stb.IsPlaying){
+
+            is_playing = stb.IsPlaying();
+
+            _debug('stb.IsPlaying', is_playing);
+
+        }else if (stb.GetVideoInfo){
+            var video_info = stb.GetVideoInfo();
             _debug('video_info', video_info);
 
             try{
@@ -2338,11 +2355,15 @@ var screensaver = {
             }
 
             video_info = video_info || {};
+
+            _debug('video_info', video_info);
+
+            is_playing = video_info.frameRate != 0;
         }
 
-        _debug('video_info', video_info);
+        _debug('is_playing', is_playing);
 
-        if (stb.player.on && video_info.frameRate != 0){
+        if (stb.player.on && is_playing){
             this.restart_timer();
             return;
         }
