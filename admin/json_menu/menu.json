@@ -1,5 +1,38 @@
 {
     "1": {
+        "name": _("Users"),
+        "alias": "users",
+        "icon": "fa  fa-users",
+        "icon2": "pull-right fa fa-chevron-left",
+        "action": {
+            "1": {
+                "name": _("Users list"),
+                "alias": "users-list",
+                "icon": ""
+            },
+            "2": {
+                "name": _("Filters"),
+                "alias": "users-filter-list",
+                "icon": ""
+            },
+            "3": {
+                "name": _("User groups"),
+                "alias": "users-consoles-groups",
+                "icon": ""
+            },
+            "4": {
+                "name": _("Logs"),
+                "alias": "users-consoles-logs",
+                "icon": ""
+            },
+            "5": {
+                "name": _("Report"),
+                "alias": "users-consoles-report",
+                "icon": ""
+            }
+        }
+    },
+    "2": {
         "name": _("IPTV channels"),
         "alias": "tv-channels",
         "icon": "fa fa-desktop",
@@ -33,7 +66,7 @@
             }
         }
     },
-    "2": {
+    "3": {
         "name": _("Video club"),
         "alias": "video-club",
         "icon": "fa fa-video-camera",
@@ -76,7 +109,7 @@
             }
         }
     },
-    "3": {
+    "4": {
         "name": _("Audio club"),
         "alias": "audio-club",
         "icon": "fa fa-music",
@@ -109,7 +142,7 @@
             }
         }
     },
-    "4": {
+    "5": {
         "name": _("Karaoke"),
         "alias": "karaoke",
         "icon": "fa fa-microphone",
@@ -117,7 +150,7 @@
         "action": {
         }
     },
-    "5": {
+    "6": {
         "name": _("Radio"),
         "alias": "radio",
         "icon": "fa fa-bullhorn",
@@ -125,7 +158,7 @@
         "action": {
         }
     },
-    "6": {
+    "7": {
         "name": _("Tariffs"),
         "alias": "tariffs",
         "icon": "fa fa-calculator",
@@ -144,39 +177,6 @@
             "3": {
                 "name": _("Subscribe log"),
                 "alias": "subscribe-log",
-                "icon": ""
-            }
-        }
-    },
-    "7": {
-        "name": _("Users"),
-        "alias": "users",
-        "icon": "fa  fa-users",
-        "icon2": "pull-right fa fa-chevron-left",
-        "action": {
-            "1": {
-                "name": _("Users list"),
-                "alias": "users-list",
-                "icon": ""
-            },
-            "2": {
-                "name": _("Filters"),
-                "alias": "users-filter-list",
-                "icon": ""
-            },
-            "3": {
-                "name": _("User groups"),
-                "alias": "users-consoles-groups",
-                "icon": ""
-            },
-            "4": {
-                "name": _("Logs"),
-                "alias": "users-consoles-logs",
-                "icon": ""
-            },
-            "5": {
-                "name": _("Report"),
-                "alias": "users-consoles-report",
                 "icon": ""
             }
         }
